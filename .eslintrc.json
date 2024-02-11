@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:tailwindcss/recommended",
+    "plugin:import/recommended",
+    "plugin:unicorn/recommended"
+  ],
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "unicorn/text-encoding-identifier-case": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/switch-case-braces": "off",
+    "unicorn/numeric-separators-style": "off",
+    "@next/next/no-img-element": "off",
+    "import/named": "off",
+    "unicorn/no-useless-undefined": "off",
+    "unicorn/no-array-reduce": "off",
+    "unicorn/no-array-for-each": "off",
+    "unicorn/no-null": "off",
+    "unicorn/no-nested-ternary": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
+    "unicorn/no-await-expression-member": "off"
+  }
+}
